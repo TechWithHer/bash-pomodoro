@@ -22,3 +22,14 @@
 - Improved error messages
 - Cleaner Bash syntax
 - Inline comments for better understanding
+  
+## [v1.0.0] - 2025-06-21
+### Added
+- Config file support via `~/.pomodoro.conf`
+- `--silent` flag to disable beeps/notifications
+- `--log` flag to enable logging to `logs/`
+- Daily logs saved as `session-YYYY-MM-DD.log`
+
+### Changed
+- Command-line arguments override config
+- Help message improved and includes defaults
