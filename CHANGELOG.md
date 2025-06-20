@@ -11,3 +11,14 @@
 - No logging or stats
 - No config file
 - No CLI help or flags
+
+## [v0.2.0] - 2025-06-21
+### Added
+- `--help` flag to show usage instructions
+- Input validation for minutes and cycles
+- Function to check positive integers
+
+### Changed
+- Improved error messages
+- Cleaner Bash syntax
+- Inline comments for better understanding
